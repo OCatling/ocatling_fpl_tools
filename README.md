@@ -6,25 +6,25 @@ Few Ideas for Tools largely around comparing gameweeks for players with better f
 
 TODO:
 - Import data
---> getTeams : JSON
---> getTeam(id) : team
---> getFixtures : JSON
---> getFixture(id) : fixture
---> getPlayers : JSON
---> getPlayer(id) : player
+-- getTeams : JSON
+-- getTeam(id) : team
+-- getFixtures : JSON
+-- getFixture(id) : fixture
+-- getPlayers : JSON
+-- getPlayer(id) : player
 
 - Console menu interface for tools
 
 - Given number of future gameweeks calculate teams with best fixtures
---> getGWDifficulty : array[int]
---> total : int
---> orderByDifficulty :array[team]
+-- getGWDifficulty : array[int]
+-- total : int
+-- orderByDifficulty :array[team]
 
 - Suggest Players From Team
---> Get Players(team) : list<player>
---> SortByForm(list<players>) : list<players>
+-- Get Players(team) : list<player>
+-- SortByForm(list<players>) : list<players>
 
 - Suggest Players From Team With Comparable Position
---> Get Position(player) : string
---> getPlayers(team) : list<player>
---> getPositionPlayers(string) : list<player>
+-- Get Position(player) : string
+-- getPlayers(team) : list<player>
+-- getPositionPlayers(string) : list<player>
